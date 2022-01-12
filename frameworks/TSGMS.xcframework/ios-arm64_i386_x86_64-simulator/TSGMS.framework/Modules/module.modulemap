@@ -1,0 +1,6 @@
+framework module TSGMS {
+  umbrella header "TSGMS-umbrella.h"
+
+  export *
+  module * { export * }
+}
