@@ -36,11 +36,12 @@ pod 'TSGMS'
 - 登录遇到了问题
 请填写正确的appid和token。
 ```objc
-[[TSGMSKit alloc] initWithAppId:@"appid" delegate:self];
-[rzGMSKit loginByToken:token timeStamp:ts userId:uid completion:completion];
+TSGMSKit *tsGMSKit = [[TSGMSKit alloc] initWithAppId:@"appid" delegate:self];
+[tsGMSKit loginByToken:token timeStamp:ts userId:uid completion:completion];
 ```
 
 - 如何计算token
+
 token 计算参考demo
 
 ## 注意事项
