@@ -1,6 +1,6 @@
 ---
 title: TSGMSKit
-description: "认真通信 GMS - iOS API 参考文档"
+description: "TSGMS - iOS API 参考文档"
 ---
 ## Login
 ### initWithAppId

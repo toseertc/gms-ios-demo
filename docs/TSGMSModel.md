@@ -1,6 +1,6 @@
 ---
 title: TSGMSModel
-description: 认真通信 GMS - iOS 数据模型 API 参考文档。
+description: TSGMS - iOS 数据模型 API 参考文档。
 ---
 
 ## TSGMSInvitation

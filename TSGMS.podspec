@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
   s.name         = "TSGMS"
   s.version      = "1.4.0"
   s.summary      = "TSGMS"
-  s.description  = "认真 GMS 的实时消息服务，cocoapods线上版本"
+  s.description  = "TSGMS 的实时消息服务，cocoapods线上版本"
 
   s.homepage     = "https://github.com/duobeiyun/TSGMSDemo_OC.git"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
-      Copyright (C) 2021 TS GMS, Inc. All rights reserved.
+      Copyright (C) 2021 TSGMS, Inc. All rights reserved.
       LICENSE
   }
   s.platform     = :ios

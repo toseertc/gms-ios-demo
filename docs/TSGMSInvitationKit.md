@@ -1,6 +1,6 @@
 ---
 title: TSGMSInvitationKit
-description: "认真通信 GMS - iOS 呼叫邀请 API 参考文档"
+description: "TSGMS - iOS 呼叫邀请 API 参考文档"
 ---
 ## Invitation
 ### sendInvitation

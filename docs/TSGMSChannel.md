@@ -1,6 +1,6 @@
 ---
 title: TSGMSChannel
-description: 认真通信 GMS - iOS 频道 API 参考文档。
+description: TSGMS - iOS 频道 API 参考文档。
 ---
 
 ## delegate
