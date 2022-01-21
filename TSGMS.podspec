@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "TSGMS"
-  s.version      = "1.4.0"
+  s.version      = "2.0.0"
   s.summary      = "TSGMS"
   s.description  = "TSGMS 的实时消息服务，cocoapods线上版本"
 
-  s.homepage     = "https://github.com/duobeiyun/TSGMSDemo_OC.git"
+  s.homepage     = "https://github.com/toseertc/gms-ios-demo.git"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.ios.deployment_target = '9.0'
   s.author       = { "xiaobing" => "xiaobing.yao@duobei.com" }
-  s.source       = { :git => "https://github.com/duobeiyun/TSGMSDemo_OC.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/toseertc/gms-ios-demo.git", :tag => "#{s.version}" }
   s.vendored_frameworks  = "frameworks/TSGMS.xcframework", "frameworks/SocketIO.xcframework", "frameworks/Starscream.xcframework"
   
 end

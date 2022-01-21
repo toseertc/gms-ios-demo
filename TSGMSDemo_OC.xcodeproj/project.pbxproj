@@ -29,7 +29,6 @@
 		45A4432624D5504900B06B50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		45A4433124D5504C00B06B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45A4433424D5504C00B06B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		45A4433624D5504C00B06B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A4433724D5504C00B06B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45A4433E24D5509B00B06B50 /* TSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewCell.h; sourceTree = "<group>"; };
 		45A4433F24D5509B00B06B50 /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		B9D47A545FF29DD37D52C0DB /* Pods-RZGMSDemo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZGMSDemo_OC.release.xcconfig"; path = "Target Support Files/Pods-RZGMSDemo_OC/Pods-RZGMSDemo_OC.release.xcconfig"; sourceTree = "<group>"; };
 		D5B2C27246FC32ADF0D15A01 /* Pods-TSGMSDemo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSGMSDemo_OC.debug.xcconfig"; path = "Target Support Files/Pods-TSGMSDemo_OC/Pods-TSGMSDemo_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB2100A1C3974A04E626275 /* Pods-TSGMSDemo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSGMSDemo_OC.release.xcconfig"; path = "Target Support Files/Pods-TSGMSDemo_OC/Pods-TSGMSDemo_OC.release.xcconfig"; sourceTree = "<group>"; };
+		FEB4F01D279AA3C500826907 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,7 @@
 		45A4432424D5504900B06B50 /* TSGMSDemo_OC */ = {
 			isa = PBXGroup;
 			children = (
+				FEB4F01D279AA3C500826907 /* Info.plist */,
 				45A4434E24D7BA9B00B06B50 /* Catagory */,
 				45A4434324D5509B00B06B50 /* Main.storyboard */,
 				45A4433F24D5509B00B06B50 /* TSViewController.h */,
@@ -100,7 +101,6 @@
 				45A4432624D5504900B06B50 /* AppDelegate.m */,
 				45A4433124D5504C00B06B50 /* Assets.xcassets */,
 				45A4433324D5504C00B06B50 /* LaunchScreen.storyboard */,
-				45A4433624D5504C00B06B50 /* Info.plist */,
 				45A4433724D5504C00B06B50 /* main.m */,
 				453513A024E388E7003CDB9C /* Test.swift */,
 				4535139F24E388E7003CDB9C /* TSGMSDemo_OC-Bridging-Header.h */,
@@ -159,7 +159,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "TS";
+				ORGANIZATIONNAME = TS;
 				TargetAttributes = {
 					45A4432124D5504900B06B50 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -387,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VB8MVMJBU4;
+				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				INFOPLIST_FILE = TSGMSDemo_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -403,7 +403,7 @@
 					"-framework",
 					"\"Starscream\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "TS.TSGMSDemo-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.tosee.ios-gms-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TSGMSDemo_OC/TSGMSDemo_OC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -419,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VB8MVMJBU4;
+				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				INFOPLIST_FILE = TSGMSDemo_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,7 +435,7 @@
 					"-framework",
 					"\"Starscream\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "TS.TSGMSDemo-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.tosee.ios-gms-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TSGMSDemo_OC/TSGMSDemo_OC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

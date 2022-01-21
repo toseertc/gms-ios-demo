@@ -54,7 +54,7 @@
     [_peerTableView registerNib:[UINib nibWithNibName:@"TSTableViewCell" bundle:nil] forCellReuseIdentifier:@"TSTableViewCell"];
 
     //换成你自己的appid
-    NSString *appId = @"appId";
+    NSString *appId = @"Your appId";
     _tsGMSKit = [[TSGMSKit alloc] initWithAppId:appId delegate:self];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyBoardChange:) name:UIKeyboardWillShowNotification object:nil];
@@ -81,9 +81,9 @@
     NSDate *date = [NSDate date];
     int64_t ts = (int64_t)(date.timeIntervalSince1970 * 1000);
     //换成自己的appId
-    NSString *appId = @"appId";
+    NSString *appId = @"Your appId";
     //换成自己的appKey
-    NSString *appKey = @"appKey";
+    NSString *appKey = @"Your appKey";
     //计算token
     NSString *tokenStr = [NSString stringWithFormat:@"appId=%@&timestamp=%lld&userId=%@%@", appId, ts, uid, appKey];
     NSString *token = [tokenStr md5Value];

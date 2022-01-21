@@ -100,18 +100,18 @@ typedef void (^TSGMSSubscriptionRequestBlock)(TSGMSPeerSubscriptionStatusErrorCo
 @protocol TSGMSDelegate <NSObject>
 @optional
 
-- (void)TSGMSKit:(TSGMSKit *)kit connectionStateChanged:(TSGMSConnectionState)state reason:(TSGMSConnectionChangeReason)reason;
-- (void)TSGMSKit:(TSGMSKit *)kit peersOnlineStatusChanged:(NSArray<TSGMSPeerOnlineStatus *> *)onlineStatus;
+- (void)tsGMSKit:(TSGMSKit *)kit connectionStateChanged:(TSGMSConnectionState)state reason:(TSGMSConnectionChangeReason)reason;
+- (void)tsGMSKit:(TSGMSKit *)kit peersOnlineStatusChanged:(NSArray<TSGMSPeerOnlineStatus *> *)onlineStatus;
 ///收到点对点消息
-- (void)TSGMSKit:(TSGMSKit *)kit messageReceived:(TSGMSMessage *)message fromPeer:(NSString *)peerId;
+- (void)tsGMSKit:(TSGMSKit *)kit messageReceived:(TSGMSMessage *)message fromPeer:(NSString *)peerId;
 ///token过期通知，重连的时候触发
-- (void)TSGMSKitTokenDidExpire:(TSGMSKit *)kit;
+- (void)tsGMSKitTokenDidExpire:(TSGMSKit *)kit;
 
 
 /// 用户调用 subscribePeersUserAttribes: 批量订阅用户属性变更回调
 /// @param kit TSGMSKit 实例
 /// @param peersUserAttributes  属性变更数组，TSGMSUserAttributes 数组
-- (void)TSGMSKit:(TSGMSKit *)kit peersUserAttributesChanged:(NSArray<TSGMSUserAttributes*>*)peersUserAttributes;
+- (void)tsGMSKit:(TSGMSKit *)kit peersUserAttributesChanged:(NSArray<TSGMSUserAttributes*>*)peersUserAttributes;
 
 @end
 
