@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) NSString *tavernServer;
 /// 当前 socket.io 实例的 id 值
 @property (nonatomic, copy, nullable) NSString *connectionId;
+
+@property (nonatomic, copy, nullable) NSArray *tavernServers;
+
 @end
 
 
@@ -36,7 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (void)getApiServer:(NSString *)apiServer;
-- (void)getTavernServer:(NSString *)tavernServer;
+
+//更新当前使用的tavern server
+- (void)updateTavernServer:(NSString *)tavernServer;
+//获得tavern server列表
+- (void)getTavernServers:(NSArray *)tavernServers;
+
 - (void)getConnectionId:(NSString *)connectionId;
 
 - (void)loginWithToken:(NSString *)token userId:(NSString *)userId timestamp:(NSTimeInterval)timestamp;

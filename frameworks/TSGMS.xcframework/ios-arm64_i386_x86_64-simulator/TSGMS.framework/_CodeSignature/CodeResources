@@ -70,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AagoSh8ndkzXPLyEaVm89CUp6Bc=
+		jIzocS8c00EkhHYjbGyHCeK7jLs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>PrivateHeaders/TSGMSDebugInfo.h</key>
 		<data>
-		7zUD3/lgNl6nOS5psAXrp6sWBGo=
+		r/tRGGLpoMDaDZLCdar06jhJ+AY=
 		</data>
 		<key>PrivateHeaders/TSGMSDefines.h</key>
 		<data>
@@ -99,6 +99,10 @@
 		<key>PrivateHeaders/TSGMSStateHelper.h</key>
 		<data>
 		RdBVfB7WiQYfvRL2g3w22i2kYWg=
+		</data>
+		<key>PrivateHeaders/TSSocketManager.h</key>
+		<data>
+		WNxl7BzhVNmHOFVk8uelqdMkw5g=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -327,11 +331,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7zUD3/lgNl6nOS5psAXrp6sWBGo=
+			r/tRGGLpoMDaDZLCdar06jhJ+AY=
 			</data>
 			<key>hash2</key>
 			<data>
-			XDC3sdNXsactFJepXudTNeFidtZyeX5i/ldxNYG3Y9Y=
+			YYxzwHrRMn0XgZXa/IIJVZo6J/wB/cXHGnvoYn0fRvE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/TSGMSDefines.h</key>
@@ -354,6 +358,17 @@
 			<key>hash2</key>
 			<data>
 			KA/DzkfSMRsGUSxFWcbvE6JJaO2dj7T2d50cqi5q6xg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/TSSocketManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WNxl7BzhVNmHOFVk8uelqdMkw5g=
+			</data>
+			<key>hash2</key>
+			<data>
+			rih/EfB9bu78VxKKEqY4dPl/KH77VkkjzbpvVgFZlk0=
 			</data>
 		</dict>
 	</dict>
