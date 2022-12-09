@@ -1,6 +1,6 @@
 ## Requirements
 
-- iOS 9.0+
+- iOS 11.0+
 
 ## Installation
 
